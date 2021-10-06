@@ -1,11 +1,25 @@
-A (93-100) 
-A- (90-92.999)
-B+ (87-89.999)
-B (83-86.999)
-B- (80-82.999)
-C+ (77-79.999)
-C (73-76.999) 
-C- (70-72.999) 
-D+ (65-69.999)
-D (60-64.999) 
-F (Below 60)
+# author CJP 10/6/2021
+
+x = int(input("What is your grade? "))
+if x >= 93:
+    print("A")
+elif x >= 90:
+    print("A-")
+elif x >= 87:
+    print("B+")
+elif x >= 83:
+    print("B")
+elif x >= 80:
+    print("B-")
+elif x >= 77:
+    print("C+")
+elif x >= 73:
+    print("C")
+elif x >= 70:
+    print("C-")
+elif x >= 65:
+    print("D+")
+elif x >= 60:
+    print("D")
+else:
+    print("You Failed")
